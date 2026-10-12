@@ -23,7 +23,11 @@ For Problem 3, I simulated flow through a simple porous microstructure. In a por
 
 $$\mathbb{u} = - \frac{\kappa}{\mu} \nabla P,$$
 
-where the permeability $\kappa$ measures how easily fluid passes through the material, large $\kappa$ corresponds to an open, loosely packed medium, and small $\kappa$ to a tightly packed one. 
+where the permeability $\kappa$ measures how easily fluid passes through the material, large $\kappa$ corresponds to an open, loosely packed medium, and small $\kappa$ to a tightly packed one. To combine free flow and porous regions in one domain, I solved the Stokes-Darcy equations,
+
+$$\mu\nabla^2\mathbf{u} - \alpha(x,y)\,\mathbf{u} - \nabla P = 0, \qquad \nabla\cdot\mathbf{u} = 0,$$
+
+where $\alpha = \mu/\kappa$ is the inverse permeability. Where $\alpha = 0$ this reduces to the ordinary Stokes equations. Where $\alpha$ is large, the drag term dominates and the velocity is pushed toward zero. Numerically, this only changes the Problem 1 system by subtracting the diagonal matrix $\mathrm{diag}(\alpha)$ from $L_u$ and $L_v$, with $\alpha$ evaluated on the $U$ and $V$ grids. I kept the same boundary conditions as in Problem 1 (periodic in $x$, $U = 0$ and $V = -3.5$ on the top and bottom) and set $\mathbf{b} = 0$.
 
 I set $\mu = 1$ and places two circular porous grains of radius $0.10$, one in the upper left (centered at (0.25, 0.75)) and one in the lower right (centered at (0.75, 0.2)). Inside the grains, $\frac{\mu}{\kappa} = 100$, and outside them $\frac{\mu}{\kappa} = 0$, so the surrounding fluid obeys the ordinary Stokes equations.
 
