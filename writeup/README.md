@@ -20,11 +20,11 @@ The relative errors in U, V, and P vs the grid size. All three decrease at the s
 
 ## Problem 3
 For problem 3 I decided to try to simulate the flow through some kind of porous microstructure. Based off of my research Darcy's Law is 
-\[u = - \frac{\kappa}{\mu} \nabla P\] 
+$$u = - \frac{\kappa}{\mu} \nabla P$$ 
 And the Stokes Darcy Equations would be 
-\[\mu \nabla^2 u - \nabla P - \frac{\mu}{\kappa} u = b\]
-\[\nabla \cdot u = 0]
-I set $ \mu = 1$ and decied to have two circular grains of a porous structure. 
+$$\mu \nabla^2 u - \nabla P - \frac{\mu}{\kappa} u = b$$
+$$\nabla \cdot u = 0$$
+I set $\mu = 1$ and decied to have two circular grains of a porous structure. 
 
 ## Figure 3
 
