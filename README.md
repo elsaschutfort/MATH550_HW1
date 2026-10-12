@@ -32,6 +32,4 @@ MATH550-HW0/
 ```bash 
 pip install numpy scipy matplotlib
 pip install cmocean
-jupyter nbconvert --execute problem1.ipynb
-jupyter nbconvert --execute problem3.ipynb
 ```
