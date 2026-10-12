@@ -5,7 +5,6 @@
 ```
 MATH550-HW0/
 ├── README.md
-├── requirements.txt
 ├── code/
 │   ├── problem1.ipynb
 │   └── problem3.ipynb
