@@ -10,7 +10,7 @@ The velocity boundary conditions fix the normal flux so adding a pressure condit
 
 ![Alt text](figs/problem1.png)
 
-The computed speed $\| u \|$ with streamlines show the low moves downard everywhere, slowest at the center and fastest at the periodic edges. This matches the manufactured solution and Figure 2 in the homework pdf.
+The computed speed $\|u\|$ with streamlines show the low moves downard everywhere, slowest at the center and fastest at the periodic edges. This matches the manufactured solution and Figure 2 in the homework pdf.
 
 ## Problem 2
 ### Figure 2
