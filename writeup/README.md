@@ -31,4 +31,4 @@ I set $\mu = 1$ and places two circular porous grains of radius $0.10$, one in t
 
 ![Alt text](figs/problem3.png)
 
-Using the Stokes-Darcy equations, two low-permeability discs centered near (0.25, 0.72) and (0.75, 0.22) act as obstacles in the downward $V = -3.5$ flow. The speed drops nearly to zero inside each disc, and the fluid is diverted around them, accelerating to about 5 in the open regions between.
+Using the Stokes-Darcy equations, two low-permeability discs centered near (0.25, 0.75) and (0.75, 0.20) act as obstacles in the downward $V = -3.5$ flow. The speed drops nearly to zero inside each disc, and the fluid is diverted around them, accelerating to about 5 in the open regions between.
