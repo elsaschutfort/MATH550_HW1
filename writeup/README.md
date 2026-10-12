@@ -19,9 +19,6 @@ The computed speed $\lVert u \rVert$ with streamlines show the low moves downard
 The relative errors in U, V, and P vs the grid size. All three decrease at the same rate as the second-order reference line. This confirms $O(h^2)$ convergence.
 
 ## Problem 3
-I set $\mu = 1$ and decied to have two circular grains of a porous structure with $\frac{\mu}{\kappa} = 100$ inside of the grains. I decided to put on grain in the top left corner (centered at ) and another at the bottom right (centered at )
-
-
 For Problem 3, I simulated flow through a simple porous microstructure. In a porous material, fluid moves through a network of pores too small to resolve individually, so the flow is described by an averaged relation instead. Darcy's law states that the flow rate is proportional to the pressure gradient,
 
 $$\mathbb{u} = - \frac{\kappa}{\mu} \nabla P,$$
